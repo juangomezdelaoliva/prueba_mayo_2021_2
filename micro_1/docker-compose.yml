@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  desarrollo:
+    build: .
+    ports:
+      - "8081:8081"
